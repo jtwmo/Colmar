@@ -96,6 +96,7 @@ nav ul li {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0 1rem;
 
   }
 
@@ -141,6 +142,30 @@ nav ul li {
 
 .banner-button p {
   color: white;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .banner-content {
+    display: flex;
+    align-items: center;
+    margin: 16px;
+    text-align: center;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+
+  .banner-button {
+
+  }
 }
 
 
@@ -203,6 +228,10 @@ nav ul li {
   display: flex;
 }
 
+.smol-img {
+  display: none;
+}
+
 .schedule-img {
   border: 4px dotted black;
   width: 35%;
@@ -225,6 +254,52 @@ nav ul li {
 
 .schedule-item-content a {
   color: deepskyblue;
+}
+
+@media only screen and (max-width: 760px) {
+
+  .information {
+    justify-content: center;
+    margin: 0;
+  }
+  .information-main {
+    display: none;
+  }
+
+  .information-schedule {
+    width: 100%;
+    margin: 0;
+  }
+
+  .schedule-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .big-img {
+    display: none;
+  }
+
+  .smol-img {
+    display: block;
+  }
+
+  .schedule-img {
+    width: 90%;
+  }
+
+  .schedule-item img {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .schedule-item-content {
+    width: 90%;
+    margin: 16px;
+
+  }
+
+
 }
 
 

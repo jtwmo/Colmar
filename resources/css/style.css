@@ -141,6 +141,11 @@ nav ul li {
   padding: 8px 6rem;
   text-align: center;
   max-width: 6rem;
+  transition-duration: 250ms;
+}
+
+.banner-button:hover {
+  background-color: #FCD868;
 }
 
 .banner-button p {
@@ -216,14 +221,17 @@ nav ul li {
   width: 40%;
 }
 
-
-
 .information-schedule p {
   margin-bottom: 8px;
 }
 
 .schedule-item {
   display: flex;
+  transition-duration: 250ms;
+}
+
+.schedule-item:hover {
+  background-color: #FCD868;
 }
 
 .smol-img {
@@ -332,6 +340,11 @@ nav ul li {
   width: 18rem;
   margin: 0 16px 16px 16px;
   background-color: white;
+  transition-duration: 250ms;
+}
+
+.course:hover {
+  background-color: #FCD868;
 }
 
 .course img {
@@ -418,6 +431,11 @@ nav ul li {
 
 .thesis-small-item {
   display: flex;
+  transition-duration: 250ms;
+}
+
+.thesis-small-item:hover {
+  background-color: #FCD868;
 }
 
 .thesis-small-item-img {
@@ -438,10 +456,6 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   width: 65%;
-}
-
-.thesis-small-item-content a {
-  color: deepskyblue;
 }
 
 @media only screen and (max-width: 760px) {

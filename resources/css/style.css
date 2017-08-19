@@ -352,6 +352,24 @@ nav ul li {
   margin: 8px 0;
 }
 
+@media only screen and (max-width: 760px) {
+
+  .course-img {
+    display: none;
+  }
+
+  .course h4, p {
+    display: none;
+  }
+
+  .courses {
+    background-color: white;
+  }
+  .course {
+    background-color: lightgrey;
+  }
+
+}
 
 /*--THESIS EXHIBIT SECTION--*/
 

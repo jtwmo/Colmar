@@ -13,8 +13,18 @@ h1 {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 1rem 0;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: dimgrey;
+}
+
+p {
   color: dimgrey;
 }
 
@@ -185,4 +195,53 @@ nav ul li {
 
 .schedule-item-content a {
   color: deepskyblue;
+}
+
+
+/*--COURSES SECTION--*/
+
+.courses {
+  border: 3px dotted blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.courses h1 {
+  margin: 32px 0 0 0;
+}
+
+.course-grid {
+  border: 3px dashed red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 32px 72px;
+}
+
+.course {
+  border: 3px dotted green;
+  width: 18rem;
+  margin: 0 16px 16px 16px;
+  background-color: white;
+}
+
+.course-img {
+  border: 4px dotted black;
+
+}
+
+.course img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.course-content {
+  margin: 0 16px 24px 16px;
+}
+
+.course h4 {
+  margin: 8px 0;
 }

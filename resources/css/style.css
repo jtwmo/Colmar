@@ -36,7 +36,7 @@ a {
 /*--HEADER STYLES--*/
 
 #header-large {
-  border: 2px dotted red;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@ a {
 }
 
 .logo {
-  border: 2px dashed blue;
+
   display: flex;
   align-items: center;
   margin-left: 24px;
@@ -68,7 +68,7 @@ a {
 }
 
 nav ul {
-  border: 2px dashed blue;
+
   display: flex;
   align-content: center;
   margin-right: 24px;
@@ -85,14 +85,14 @@ nav ul li {
   }
 
   #header-small {
-    border: 2px dotted red;
+
     display: flex;
     justify-content: center;
     height: 64px;
   }
 
   .icons {
-    border: 1px solid black;
+
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -107,7 +107,7 @@ nav ul li {
 /*--BANNER SECTION STYLES--*/
 
 .banner {
-  border: 2px dotted green;
+
   display: flex;
   padding: 32px 24px;
   background-color: silver;
@@ -115,7 +115,7 @@ nav ul li {
 }
 
 .banner-img {
-  border: 2px dashed purple;
+
   width: 60%;
 }
 
@@ -126,7 +126,7 @@ nav ul li {
 }
 
 .banner-content {
-  border: 2px dashed purple;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,7 +172,7 @@ nav ul li {
 /*--INFORMATION SECTION STYLES--*/
 
 .information {
-  border: 2px dotted orange;
+
   display: flex;
   margin: 32px 24px;
 }
@@ -182,7 +182,7 @@ nav ul li {
 }
 
 .information-main {
-  border: 2px dashed teal;
+
   width: 60%
 }
 
@@ -216,14 +216,6 @@ nav ul li {
   margin-bottom: 8px;
 }
 
-.information-schedule div:first-child {
-  border-bottom: 2px solid lightgrey;
-}
-
-.information-schedule div:nth-child(3n+0) {
-  background-color: lightgrey;
-}
-
 .schedule-item {
   display: flex;
 }
@@ -233,7 +225,7 @@ nav ul li {
 }
 
 .schedule-img {
-  border: 4px dotted black;
+
   width: 35%;
   padding: 16px;
 }
@@ -245,7 +237,7 @@ nav ul li {
 }
 
 .schedule-item-content {
-  border: 2px dotted firebrick;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -295,18 +287,16 @@ nav ul li {
 
   .schedule-item-content {
     width: 90%;
-    margin: 16px;
+    margin: 0 16px 32px 16px;
 
   }
-
-
 }
 
 
 /*--COURSES SECTION--*/
 
 .courses {
-  border: 3px dotted blue;
+
   background-color: lightgrey;
   display: flex;
   flex-direction: column;
@@ -319,7 +309,7 @@ nav ul li {
 }
 
 .course-grid {
-  border: 3px dashed red;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -327,15 +317,10 @@ nav ul li {
 }
 
 .course {
-  border: 3px dotted green;
+
   width: 18rem;
   margin: 0 16px 16px 16px;
   background-color: white;
-}
-
-.course-img {
-  border: 4px dotted black;
-
 }
 
 .course img {
@@ -378,7 +363,7 @@ nav ul li {
 /*--THESIS EXHIBIT SECTION--*/
 
 .thesis-exhibit {
-  border: 2px dotted orange;
+
   margin: 32px 24px;
 }
 
@@ -387,11 +372,11 @@ nav ul li {
 }
 
 .thesis-grid {
-  border: 3px solid teal;
+
   display: flex;
 }
 .thesis-big {
-  border: 2px dashed red;
+
   width: 60%
 }
 
@@ -420,20 +405,12 @@ nav ul li {
   margin-bottom: 8px;
 }
 
-.thesis-small div:first-child {
-  border-bottom: 2px solid lightgrey;
-}
-
-.thesis-small div:nth-child(3n+0) {
-  background-color: lightgrey;
-}
-
 .thesis-small-item {
   display: flex;
 }
 
 .thesis-small-item-img {
-  border: 4px dotted black;
+
   width: 35%;
   padding: 16px;
 }
@@ -445,7 +422,7 @@ nav ul li {
 }
 
 .thesis-small-item-content {
-  border: 2px dotted firebrick;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

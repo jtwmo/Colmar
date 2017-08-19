@@ -35,12 +35,16 @@ a {
 
 /*--HEADER STYLES--*/
 
-header {
+#header-large {
   border: 2px dotted red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 64px;
+}
+
+#header-small {
+  display: none;
 }
 
 .logo {
@@ -72,6 +76,30 @@ nav ul {
 
 nav ul li {
   margin: 8px;
+}
+
+@media only screen and (max-width: 760px) {
+
+  #header-large {
+    display: none;
+  }
+
+  #header-small {
+    border: 2px dotted red;
+    display: flex;
+    justify-content: center;
+    height: 64px;
+  }
+
+  .icons {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+
 }
 
 
